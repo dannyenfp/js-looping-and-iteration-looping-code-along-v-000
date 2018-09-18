@@ -8,3 +8,10 @@ function wrapGift(gift) {
 wrapGift(gifts[0]);
 wrapGift(gifts[1]);
 wrapGift(gifts[2]);
+
+function printBadges(arr){ 
+  for (let i = 0; i < arr.length; i++) {
+    console.log(`Welcome ${arr[i]}! You are employee #${i+1}.);
+  }
+  return arr;
+}
